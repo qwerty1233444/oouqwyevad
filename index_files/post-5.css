@@ -1,0 +1,95 @@
+.elementor-kit-5{--e-global-color-primary:#583E31;--e-global-color-secondary:#261F19;--e-global-color-text:#261F19;--e-global-color-accent:#DBB57E;--e-global-color-92341d0:#FFFFFF;--e-global-color-666e577:#000000;--e-global-color-a15e30a:#583E31;--e-global-color-74fcdb6:#261F19;--e-global-color-2e92c5f:#DBB57E;--e-global-typography-primary-font-family:"NikkeiMaru";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Montserrat";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Montserrat";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Montserrat";--e-global-typography-accent-font-weight:500;background-color:var( --e-global-color-74fcdb6 );--e-page-transition-entrance-animation:e-page-transition-fade-out;--e-page-transition-exit-animation:e-page-transition-fade-in;--e-page-transition-animation-duration:350ms;}.elementor-kit-5 button,.elementor-kit-5 input[type="button"],.elementor-kit-5 input[type="submit"],.elementor-kit-5 .elementor-button{font-weight:500;color:var( --e-global-color-74fcdb6 );background-color:var( --e-global-color-92341d0 );border-radius:0px 0px 0px 0px;padding:15px 30px 15px 30px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1360px;}.e-con{--container-max-width:1360px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:var( --e-global-color-secondary );}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//* Polylang_langswitcher */
+.polylang_langswitcher{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.polylang_langswitcher li{
+    color: inherit;
+    font-style: initial;
+    text-transform: uppercase;
+}
+
+.polylang_langswitcher li a{
+    color: inherit;
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #fff;
+    line-height: 1;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.polylang_langswitcher li:last-child a{
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0px solid #fff;   
+}
+
+.polylang_langswitcher li.current-lang a{
+    color: var( --e-global-color-accent );
+}
+
+/* Only Miami */
+.elementor-nav-menu li.only-miami,
+.elementor-nav-menu li.only-buenosaires,
+.elementor-nav-menu li.only-lima,
+.elementor-nav-menu li.only-saopaulo,
+.elementor-nav-menu li.only-quito,
+.elementor-nav-menu li.only-santiago,
+.elementor-nav-menu li.only-bogota,
+.elementor-nav-menu li.only-puntadeleste{
+    display: none;
+}
+
+/* Tooltip */
+.tippy-box{
+    background-color: #33333333 !important;   
+}
+
+.tippy-arrow{
+    color: #33333333 !important;   
+}
+
+/* Menu Coming Soon */
+.coming-soon small{
+    margin-left: 3px;
+}
+
+/* Locations */
+#locations .elementor-icon-list-items .elementor-icon-list-text{
+    text-shadow: 1px 1px 3px #000000;
+}
+
+/* tabs-osaka */
+.tabs-osaka:not(.elementor-element-editable) .e-n-tabs-content [role=tabpanel]{
+    display: none;
+}
+
+.tabs-osaka:not(.elementor-element-editable) .e-n-tab-title[aria-selected="true"]{
+    background-color: inherit !important;
+}
+
+.tabs-osaka:not(.elementor-element-editable) .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23ffffff' height='200px' width='200px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve' stroke='%23ffffff'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath id='XMLID_92_' d='M111.213,165.004L250.607,25.607c5.858-5.858,5.858-15.355,0-21.213c-5.858-5.858-15.355-5.858-21.213,0.001 l-150,150.004C76.58,157.211,75,161.026,75,165.004c0,3.979,1.581,7.794,4.394,10.607l150,149.996 C232.322,328.536,236.161,330,240,330s7.678-1.464,10.607-4.394c5.858-5.858,5.858-15.355,0-21.213L111.213,165.004z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    cursor: pointer
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'NikkeiMaru';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://osakanikkei.com/wp-content/uploads/2024/03/Osaka-NikkeiMaru-Bold-1.woff2') format('woff2'),
+		url('https://osakanikkei.com/wp-content/uploads/2024/03/Osaka-NikkeiMaru-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */
